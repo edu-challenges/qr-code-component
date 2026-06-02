@@ -78,6 +78,11 @@ body {
   padding: 2rem;
   max-width: 375px;
   margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 
   article {
     border-radius: 20px;
@@ -121,7 +126,6 @@ body {
   .attribution {
     font-size: 0.6875rem;
     text-align: center;
-    padding-block: 2rem;
   }
 
   .attribution a {
